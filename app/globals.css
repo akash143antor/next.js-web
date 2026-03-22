@@ -181,7 +181,7 @@ html, body {
 }
 
 .preview-wrapper {
-  height: calc(160 * 1920 / 1080);
+  height: calc(160px * 1920 / 1080);
 }
 
 .card-bg {
@@ -659,7 +659,7 @@ html, body {
   }
 
   .preview-wrapper {
-    height: calc(320 * 1920 / 1080);
+    height: calc(320px * 1920 / 1080);
   }
 
   .form-section {
@@ -683,7 +683,7 @@ html, body {
 
   .preview-wrapper { width: 400px; }
   .preview-wrapper .card-canvas { transform: scale(calc(400 / 1080)); }
-  .preview-wrapper { height: calc(400 * 1920 / 1080); }
+  .preview-wrapper { height: calc(400px * 1920 / 1080); }
 }
 
 /* === Very small devices === */
@@ -693,5 +693,5 @@ html, body {
   .form-input, .form-select { font-size: 13px; padding: 8px 10px; }
   .preview-wrapper { width: 140px; }
   .preview-wrapper .card-canvas { transform: scale(calc(140 / 1080)); }
-  .preview-wrapper { height: calc(140 * 1920 / 1080); }
+  .preview-wrapper { height: calc(140px * 1920 / 1080); }
 }
